@@ -1,10 +1,9 @@
-//Implement single inheritance: Create a base class Person and a derived class Employee. Add relevant data members.
 
 #include <iostream>
 using namespace std;
 
 class Person {
-protected://it is an acceess specifier that can be accessed in its own class , derived class but not in outside the class
+protected: //it is an acceess specifier that can be accessed in its own class , derived class but not in outside the class
     string name;
     int age;
 
